@@ -1,0 +1,120 @@
+
+
+ /* Amy's stuff */
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif; 
+    font-size: 50pt;  
+    margin-top: 20px;
+    color:#198754;
+    font-weight: bold;
+    
+ }
+
+ .animalBox {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+ } 
+
+
+
+ .h1pg2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #198754;
+    font-weight: bold;
+ }
+
+ .cardtext {
+     padding: 10px;
+     box-sizing: border-box;
+ }
+
+ .cardtext h4 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .cardtext p {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     color: #198754;
+     font-weight: bold;
+     align-items: center;
+     font-size: 15pt;
+ }
+
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     border-radius: 20px; 
+   }
+   
+
+   img {
+     border-radius: 20px 20px 0 0;
+   }
+
+
+   #buttonBar {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+
+   }
+
+.butt1, .butt2, .butt3 {
+     padding: 10px;
+     margin: 10px;
+     border-radius: 20px;
+     border-style: solid;
+     border-color: black;
+     background-color: white;
+     font-weight: bold;
+     font-size: 12pt;
+     width:185.91px;
+}
+
+.butt1, .butt2, .butt3, a {
+     text-decoration: none;
+     color:black;
+}
+
+.butt1, .butt2, .butt3, a:hover {
+     
+     color:#198754;
+}
+
+.bottom{
+     margin-bottom: 2.5rem;
+}
+
+@media only screen and (min-width: 700px)  {
+
+     #buttonBar {
+     
+          flex-direction: row;
+     
+        }
+        .h1pg2 {
+          margin-top: 80px;
+        }
+
+}
+
